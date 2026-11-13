@@ -5,6 +5,8 @@ Maintained by Claude via `/start-session` and `/end-session`. Plan lives in `nee
 ## Goal
 Answer all 150 NeetCode problems cold in Java, with correct time/space analysis and clear out-loud explanations, to ace any technical interview. Progress: 0/150 solved cold.
 
+See `ladder.md` for levels and snapshots, and `history/` for the full question-and-answer record.
+
 ## Current status
 - **Phase:** 0 (Prerequisites)
 - **Plan week:** 1 (Mon 2026-11-16 target start; actual start: 2026-11-12, pre-week)

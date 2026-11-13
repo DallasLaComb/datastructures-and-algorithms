@@ -5,7 +5,8 @@ argument-hint: "[minutes available, optional]"
 
 The user is starting a practice session. Time available: $ARGUMENTS (default: 60 minutes on a weekday, 90 on a weekend).
 
-1. Read `neetcode/progress.md` and `neetcode/neetcode-150-plan.md`.
+1. Read `neetcode/progress.md`, `neetcode/neetcode-150-plan.md`, `neetcode/ladder.md`, and the most recent file in `neetcode/history/`. Open today's session heading in the history file (per `neetcode/history/README.md`) as questions get asked, so nothing is lost if the session ends abruptly.
+   Show the ladder view in 2-3 lines: "Last session (date) you were at <level/where you were>. Now: <current level, cold count, quiz accuracy>." Optionally reference a past question they got wrong to see if it's fixed.
 2. Get today's date (run `date`). Compare against the dated schedule: say in one line whether they are ahead, on track, or behind, and by roughly how much.
 3. In `progress.md`, set **Active session** to today's date and start time.
 4. Recap in 2-3 lines: where they left off, the "Next up" item, and any weak spots relevant today.

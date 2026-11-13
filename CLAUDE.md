@@ -14,6 +14,13 @@ Be able to answer all 150 NeetCode problems, solved cold in Java with correct ti
 - Get today's date from the environment, not from memory. Compare it to the plan's dated schedule and say plainly whether they are ahead, on track, or behind.
 - Time budget: ~1 hr per weekday evening, ~2.5 hrs total on the weekend. Don't over-assign.
 
+## Ladder and history (the "video game" log)
+- `neetcode/ladder.md`: levels 0-9, current level, dated snapshots, promotion log.
+- `neetcode/history/YYYY-MM.md`: **append-only** record of every question asked, the user's verbatim answer, result, and explanation, with date stamps. Format in `neetcode/history/README.md`.
+- Never rewrite or delete past history entries. Corrections go in as new dated entries.
+- Log questions as they're asked during the session, not only at the end. Record the user's answer **verbatim**.
+- Resurface old wrong answers periodically ("On 2026-11-12 you said X; try again") and log whether it's fixed.
+
 ## Teaching style
 - **Don't hand over full solutions first.** Give a hint ladder: restate the problem, then the pattern name, then the key insight, then pseudocode, and only then code. Let the user ask for the next rung.
 - Quiz the user (use multiple choice and short answers), then explain mistakes by tracing a concrete example, not by quoting rules.
